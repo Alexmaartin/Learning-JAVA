@@ -29,11 +29,18 @@ public class Method {
         System.out.println("Unique false combination for or;"+ (false || false));
         System.out.println("NOT false; "+ (!false));
     }
-
+    public static String myCustomMenssage(String custonName) {
+        return "Hi " + custonName + "!This is your custom menssage";
+    }
     public static void main(String[] args) {
         logicOperators();
         int arithResult = arithmeticOperators();
         System.out.println("Aritmetic result;"+ arithmeticOperators());
+        String custonName = "Alex";
+        String message = myCustomMenssage(custonName);
+        System.out.println(message);
+        System.out.println(myCustomMenssage("Paula"));
+
     }
     }
 
