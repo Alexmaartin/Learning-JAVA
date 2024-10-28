@@ -22,6 +22,9 @@ public class SetCollection {
         instruments.remove("Batería");
         instruments.add("Flauta");
         System.out.println("Set after modification: ");
+        for (String instrument : instruments){
+            System.out.println(instrument);
+        }
 
     }
 }
