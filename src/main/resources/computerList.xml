@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Computer>
+   <Components>
+      <component quantity="1">CPU</component>
+      <component quantity="1">RAM</component>
+      <component quantity="1">Fan</component>
+      <component quantity="1">Graphic card</component>
+      <component quantity="1">Motherboard</component>
+      <component quantity="1">SSD</component>
+      <component quantity="1">Power supply</component>
+      <component quantity="1">Computer case</component>
+   </Components>
+</Computer>
