@@ -12,12 +12,11 @@ public class Reader {
         Path filePath = Paths.get(Route.PATH_NAME);
         try (BufferedReader br = new BufferedReader(new FileReader(filePath.toFile()))) {
             String line;
-            while((line =br.readLine())!=null){
-
-            {
+            while ((line = br.readLine()) != null) {
                 System.out.println(line);
             }
-        }catch(IOException e){
-            e.printStackTrace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
+}
